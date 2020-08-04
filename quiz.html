@@ -1,7 +1,7 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>8values Quiz</title>
+<title>8deger Quiz</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
@@ -19,15 +19,15 @@
 </script>
 <h1>8values</h1>
 <hr>
-<h2 style="text-align:center;" id="question-number">Loading...</h2>
+<h2 style="text-align:center;" id="question-number">Yükleniyor...</h2>
 <p class="question" id="question-text"></p>
-<button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;">Strongly Agree</button> <br>
-<button class="button" onclick="next_question( 0.5)" style="background-color: #4caf50;">Agree</button> <br>
-<button class="button" onclick="next_question( 0.0)" style="background-color: #bbbbbb;">Neutral/Unsure</button> <br>
-<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">Disagree</button> <br>
-<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Strongly Disagree</button> <br>
-<button class="small_button" onclick="prev_question()" id="back_button">Back</button>
-<button class="small_button_off" id="back_button_off">Back</button><br>
+<button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;">Kesinlikle Katılıyorum</button> <br>
+<button class="button" onclick="next_question( 0.5)" style="background-color: #4caf50;">Katılıyorum</button> <br>
+<button class="button" onclick="next_question( 0.0)" style="background-color: #bbbbbb;">Nötr/Emin değilim</button> <br>
+<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">Katılmıyorum</button> <br>
+<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Kesinlikle Katılmıyorum</button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button">Geri</button>
+<button class="small_button_off" id="back_button_off">Geri</button><br>
 
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
@@ -63,7 +63,7 @@ stats"></a></div></noscript>
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
-        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        document.getElementById("question-number").innerHTML = "Soru " + (qn + 1) + " / " + (questions.length);
         if (prev_answer == null) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';

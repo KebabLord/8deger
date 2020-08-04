@@ -17,36 +17,36 @@
 <a href="https://github.com/8values/8values.github.io" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 <h1>8values</h1>
 <hr>
-<button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Click here to start!</button>
-<img src="values.svg" class="center"></img>
+<button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Başlamak için tıkla!</button>
+<img src="values.png" class="center"></img>
 
-<h2>What is 8values?</h2>
-    <p>8values is, in essence, a political quiz that attempts to assign percentages for eight different political values. You will be presented by a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br /><br />
-    There are <b><u><span id="numOfQuestions"></span></u></b> questions in the test.</p>
+<h2>8deger nedir?</h2>
+    <p>8deger özü itibariyle 8 farklı politik değere yüzdelik dilimler vermeye çalışan bir testtir. Karşınıza bir dizi soru gelir ve soruları görüşlerinize göre cevaplarsınız. Kesinlikle katılıyorumdan kesinlikle katılmıyoruma, verdiğiniz her cevap yavaşça puanlarınızı etkiler. Testin sonunda cevaplarınız her değerin maksimumuyla kıyaslanır ve bir yüzdelik dilim belirlenir. Dürüstçe cevaplayın!<br /><br />
+    Testte <b><u><span id="numOfQuestions"></span></u></b> soru var.</p>
 
 <h2>What are the eight values?</h2>
-    <p>There are four independent axes - Economic, Diplomatic, State, and Society - and each has two opposing values assigned to them. They are:</p>
-    <p class="value-description"><b style="color:#d32f2f;">Equality</b> (Economic)<br/>
-        Those with higher Equality scores believe the economy should distribute value evenly among the populace. They tend to support progressive tax codes, social programs, and at high values, socialism.</p>
-    <p class="value-description"><b style="color:#00796b;">Markets</b> (Economic)<br/>
-        Those with higher Market scores believe the economy should be focused on rapid growth. They tend to support lower taxes, privatization, deregulation, and at high values, laissez-faire capitalism.</p>
-    <p class="value-description"><b style="color:#f57c00;">Nation</b> (Diplomatic)<br/>
-        Those with higher Nation scores are patriotic and nationalist. They often believe in an aggressive foreign policy, valuing the military, strength, sovereignty, and at high values, territorial expansion.</p>
-    <p class="value-description"><b style="color:#0288d1;">Globe</b> (Diplomatic)<br/>
-        Those with higher Globe scores are cosmopolitan and globalist. They often believe in a peaceful foreign policy, emphasizing diplomacy, cooperation, integration, and at high values, a world government.</p>
-    <p class="value-description"><b style="color:#fbc02d;">Liberty</b> (State)<br/>
-        Those with higher Liberty scores believe in strong civil liberties. They tend to support democracy and oppose state intervention in personal lives. Note that this refers to civil liberties, not economic liberties.</p>
-    <p class="value-description"><b style="color:#303f9f;">Authority</b> (State)<br/>
-        Those with higher Authority scores believe in strong state power. They tend to support state intervention in personal lives, government surveillance, and at high values, censorship or autocracy.</p>
-    <p class="value-description"><b style="color:#689f38;">Tradition</b> (Society)<br/>
-        Those with higher Tradition scores believe in traditional values and strict adherence to a moral code. Though not always, they are usually religious, and support the status quo or the status quo ante.</p>
-    <p class="value-description"><b style="color:#7b1fa2;">Progress</b> (Society)<br/>
-        Those with higher Progress scores believe in social change and rationality. Though not always, they are usually secular or atheist, and support environmental action and scientific or technological research.</p>
-<h2>What's the "Closest Match" mean at the bottom of the results?</h2>
-    <p>In addition to matching you to the eight values, the quiz also attempts to match you to a political ideology. This is a work in progress and is much less accurate than the values and axes, so don't take it too seriously. If you disagree with your assigned ideology, send us an email at eightvalues@gmail.com with your scores, matched ideology, and preferred ideology, and we'll look into adjusting the system. Thanks!</p>
-<h2>I don't like my scores!</h2>
+    <p>Birbirinden bağımsız dört değişken bulunuyor - Ekonomi, Diplomasi, Devlet ve Toplum - ve her birine tanımlanmış dört zıt değer daha var. Bunlar:</p>
+    <p class="value-description"><b style="color:#d32f2f;">Eşitlik</b> (Ekonomik)<br/>
+        Yüksek Eşitlik puanına sahip olanlar mal varlığın halka eşit miktarda dağıtılması gerektiğine inanır. İlerici vergi kanunlarını ve sosyal yardım programlarını, yüksek puanlılarında sosyalizmi desteklemeye eğimlidirler.</p>
+    <p class="value-description"><b style="color:#00796b;">Piyasa</b> (Ekonomik)<br/>
+        Daha yüksek Piyasa puanına sahip olanlar ekonominin hızla gelişmesi gerektiğine inanır. Düşük vergileri, özelleştirmeyi,deregülasyonu ve yüksek puanlılarında bırakınız yapsınlar kapitalizmini destekleyebilirler.</p>
+    <p class="value-description"><b style="color:#f57c00;">Millet</b> (Diplomatik)<br/>
+        Daha yüksek Millet puanına sahip olanlar vatansever ve milliyetçidir. Genellikle agresif bir dış politikayı desteklerler; askeriyeye, güce, egemenliğe ve yüksek puanlılarında bölgesel genişlemeye inanırlar.</p>
+    <p class="value-description"><b style="color:#0288d1;">Dünya</b> (Diplomatik)<br/>
+        Daha yüksek Dünya puanına sahip olanlar kosmopolit ve küreselcidir. Genellikle barışçıl bir dış politikaya, belirgin bir demokrasiye, işbirliğine, bütünleşmeye, yüksek puanlılarındaysa dünya devletine inanırlar.</p>
+    <p class="value-description"><b style="color:#fbc02d;">Özgürlük</b> (Devlet)<br/>
+        Daha yüksek Özgürlük puanına sahip olanlar güçlü sivil özgürlüklere inanırlar. Demokrasiyi ve devletin kişisel hayata müdahele etmemesi gerektiğini destekleyebilirler. Unutmayın ki kastedilen ekonomik değil sivil özgülüklerdir.</p>
+    <p class="value-description"><b style="color:#303f9f;">Otorite</b> (Devlet)<br/>
+        Daha yüksek Otorite puanına sahip olanlar devlet gücüne inanırlar. Devletin kişisel hayata müdahele edebileceğini, devlet gözetimini ve yüksek puanlılarında sansürü yada otokrasiyi destekleyebilirler.</p>
+    <p class="value-description"><b style="color:#689f38;">Gelenek</b> (Toplum)<br/>
+        Yüksek Gelenek puanına sahip olanlar geleneksel değerlere ve ahlak değerlerine katı bir bağlılığa inanırlar. Her zaman olmasa da, genellikle dindardırlar ve statükoyu desteklerler.</p>
+    <p class="value-description"><b style="color:#7b1fa2;">İlerleme</b> (Toplum)<br/>
+        Daha yüksek İlerleme puanına sahip olanlar sosyal değişikliğe ve rasyonelliğe inanırlar. Her zaman olmasa da, genellikle seküler yada ateistlerdir. Çevre hareketini ve bilimsel yada teknolojik araştırmaları desteklerler.</p>
+<h2>Sonuçların altındaki "En Yakın Eşleşme" ne anlama geliyor?</h2>
+    <p>Sizi toplam sekiz değerle eşleştirmeye ek olarak bu test sizi ayrıca bir politik ideolojiyle eşleştirmeye de çalışır. Hala geliştirme aşamasında ve diğer değerlere kıyasla doğruluk payı daha düşük, bu yüzden o kadar ciddiye almayın. Eğer eşleştirildiğiniz ideolojiye katılmıyorsanız mail adresimiz eightvalues@gmail.com'a sonuçlarızla birlikte eşleştiğiniz ve tercih ettiğiniz ideolojiyi göndererek sistemi dengelememizde yardımcı olabilirsiniz. Teşekkürler!</p>
+<h2>Sonuçlarımı beğenmedim!</h2>
     <p>¯\_(ツ)_/¯<br/>
-    If you have any suggestions or constructive criticism, feel free to send it to <a href="mailto:eightvalues@gmail.com">eightvalues@gmail.com</a> or open an issue on the GitHub page here: <a href="https://github.com/8values/8values.github.io">GitHub Page</a></p>
+    Tavsiyelerinizi ve yapıcı eleştirilerinizi <a href="mailto:eightvalues@gmail.com">eightvalues@gmail.com</a> adresine gönderebilir, ya da <a href="https://github.com/8values/8values.github.io">GitHub Sayfası</a>ndan iletişime geçebilirsiniz.</p>
 
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">

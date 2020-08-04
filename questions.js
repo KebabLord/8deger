@@ -27,7 +27,7 @@ questions = [
         }
     },
     {
-        "question": "Herkese refah sağlamak yerine dengeli bir bütçe sürdürmek daha iyidir.",
+        "question": "Devletin bütün vatandaşlarına refah sağlamak yerine dengeli bir bütçe sürdürmesi daha iyidir.",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -90,7 +90,7 @@ questions = [
         }
     },
     {
-        "question": "Yol ve elektrik gibi temel kamu hizmetleri kamuya ait olmalıdır.",
+        "question": "Yol ve elektrik gibi temel kamu hizmetleri özelleştirilmemelidir.",
         "effect": {
             "econ": 10,
             "dipl": 0,
